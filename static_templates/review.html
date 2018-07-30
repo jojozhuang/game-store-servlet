@@ -1,0 +1,22 @@
+<section id="content">
+  <div class="post">
+    <h3 class="title">Product Review</h3>
+    <div class="entry">
+      <h2>$productname$</h2>
+      <img src="images/$image$" style="width: 300px;" />
+      <br>
+      <hr>
+      <h5>Submit Your Review</h5>
+      <form method='post' action='Review'>
+        <input type='hidden' name='productkey' value='$productkey$'>
+        <table>
+            <tr><td>Rating:</td><td><select name='rating' class='input'><option value='5' selected>5</option><option value='4'>4</option><option value='3'>3</option><option value='2'>2</option><option value='1'>1</option></select></td></tr>
+            <tr><td>Comments:</td><td><textarea name="reviewtext" rows="5" cols="50"></textarea></td></tr>
+            <tr><td></td><td><input type='submit' class='formbutton' value='Submit'></td></tr>
+        </table>        
+      </form>
+      <hr>
+      $reviewlist$
+    </div>
+  </div>
+</section>

@@ -1,0 +1,21 @@
+<section id="content">
+  <div>
+    <h3>Edit Game</h3>
+    $errmsg$
+    <form action="GameEdit" method="Post">
+      <input type='hidden' name='maker' value='$maker$'>
+      <input type='hidden' name='game' value='$game$'>
+      <input type='hidden' name='name' value='$name$'>
+      <table style='width:50%'>
+        $option$
+        <tr><td><h5>Name:</h5></td><td><input type='text' name='name' value='$name$' class='input' required disabled/></td></tr>
+        <tr><td><h5>Price:</h5></td><td><input type='text' name='price' value='$price$' class='input' required /></td></tr>
+        <tr><td><h5>Image:</h5></td><td><input type='text' name='image' value='$image$' class='input' required /></td></tr>
+        <tr><td><h5>Retailer:</h5></td><td><input type='text' name='retailer' value='$retailer$' class='input' required /></td></tr>
+        <tr><td><h5>Condition:</h5></td><td><input type='text' name='condition' value='$condition$' class='input' required /></td></tr>
+        <tr><td><h5>Discount:</h5></td><td><input type='text' name='discount' value='$discount$' class='input' required /></td></tr>
+        <tr><td colspan="2"><input name="create" class="formbutton" value="Save" type="submit" /></td></tr>
+      </table>
+    </form>
+  </div>
+</section>

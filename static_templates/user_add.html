@@ -1,0 +1,14 @@
+<section id="content">
+  <div>
+    <h3>Add User</h3>
+    $errmsg$
+    <form action="UserAdd" method="Post">
+      <table style='width:50%'>
+        <tr><td><h5>Maker:</h5></td><td><select name='usertype' class='input'><option value='customer' selected>Customer</option><option value='storemanager'>Store Manager</option><option value='salesman'>Salesman</option></select></td></tr>
+        <tr><td><h5>Name:</h5></td><td><input type='text' name='name' value='Name1' class='input' required /></td></tr>
+        <tr><td><h5>Password:</h5></td><td><input type='text' name='password' value='123456' class='input' required /></td></tr>
+        <tr><td colspan="2"><input name="create" class="formbutton" value="Create" type="submit" /></td></tr>
+      </table>
+    </form>
+  </div>
+</section>

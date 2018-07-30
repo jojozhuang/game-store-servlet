@@ -1,0 +1,27 @@
+<div class="special_grid_col">
+  <div class="special_box">
+    <img src="images/$image$" class="img-responsive" alt=""/>
+    <h5>$itemname$</h5>
+    <div class="grid_1">
+      <div class="special_item_price">
+        <span class="price-old">$oldprice$</span><span class="price-new">$newprice$</span>
+      </div>
+      <div class="special_item_add">
+        <ul>
+          <li>
+            <form method='post' action='Cart'>
+              <input type='hidden' name='id' value='$id$'>
+              <input type='hidden' name='name' value='$name$'>
+              <input type='hidden' name='type' value='$type$'>
+              <input type='hidden' name='maker' value='$maker$'>
+              <input type='hidden' name='access' value=''>
+              <input type='submit' class='formbutton' value='Add to Cart'>
+            </form>
+          </li>
+          <li><a class='button' href='AccessoryList?maker=$maker$&console=$id$'>View Accessories</a></li>
+          <li><a class='button' href='Review?productkey=$id$'>Reviews</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,18 @@
+<section id="content">
+  <div>
+    <h3>Add Game</h3>
+    $errmsg$
+    <form action="GameAdd" method="Post">
+      <table style='width:50%'>
+        <tr><td><h5>Maker:</h5></td><td><select name='maker' class='input'><option value='electronicarts' selected>Electronic Arts</option><option value='activision'>Activision</option><option value='taketwointeractive'>Take-Two Interactive</option></select></td></tr>
+        <tr><td><h5>Name:</h5></td><td><input type='text' name='name' value='Game1' class='input' required /></td></tr>
+        <tr><td><h5>Price:</h5></td><td><input type='text' name='price' value='59.99' class='input' required /></td></tr>
+        <tr><td><h5>Image:</h5></td><td><input type='text' name='image' value='games/activision_cod.jpg' class='input' required /></td></tr>
+        <tr><td><h5>Retailer:</h5></td><td><input type='text' name='retailer' value='Activision' class='input' required /></td></tr>
+        <tr><td><h5>Condition:</h5></td><td><input type='text' name='condition' value='New' class='input' required /></td></tr>
+        <tr><td><h5>Discount:</h5></td><td><input type='text' name='discount' value='15' class='input' required /></td></tr>
+        <tr><td colspan="2"><input name="create" class="formbutton" value="Create" type="submit" /></td></tr>
+      </table>
+    </form>
+  </div>
+</section>

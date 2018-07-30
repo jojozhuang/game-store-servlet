@@ -1,0 +1,18 @@
+<section id="content">
+  <div>
+    <h3>Add Accessory</h3>
+    $errmsg$
+    <form action="AccessoryAdd" method="Post">
+      <table style='width:50%'>
+        <tr><td><h5>Console:</h5></td><td><select name='facconsole' class='input'><option value='microsoftxboxone' selected>Microsoft-Xbox One</option><option value='microsoftxbox360'>Microsoft-Xbox 360</option><option value='sonyps3'>Sony-PS3</option><option value='sonyps4'>Sony-PS4</option><option value='nintendowii'>Nintendo-Wii</option><option value='nintendowiiu'>Nintendo-WiiU</option></select></td></tr>
+        <tr><td><h5>Name:</h5></td><td><input type='text' name='name' value='Controller' class='input' required /></td></tr>
+        <tr><td><h5>Price:</h5></td><td><input type='text' name='price' value='99.99' class='input' required /></td></tr>
+        <tr><td><h5>Image:</h5></td><td><input type='text' name='image' value='consoles/xbox360.jpg' class='input' required /></td></tr>
+        <tr><td><h5>Retailer:</h5></td><td><input type='text' name='retailer' value='Johnny Corp' class='input' required /></td></tr>
+        <tr><td><h5>Condition:</h5></td><td><input type='text' name='condition' value='New' class='input' required /></td></tr>
+        <tr><td><h5>Discount:</h5></td><td><input type='text' name='discount' value='30' class='input' required /></td></tr>
+        <tr><td colspan="2"><input name="create" class="formbutton" value="Create" type="submit" /></td></tr>
+      </table>
+    </form>
+  </div>
+</section>
