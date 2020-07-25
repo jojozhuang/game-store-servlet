@@ -23,4 +23,4 @@ git clone https://github.com/jojozhuang/game-store-servlet.git
 Open the project in Eclipse, compile and run.
 
 # Portfolio
-Read portfolio [Online Game Store(JSP)](https://jojozhuang.github.io/portfolio/game-store-jsp/) to learn the main functions of this eCommerce web store.
+Read portfolio [Online Game Store(JSP)](https://jojozhuang.github.io/project/game-store-jsp) to learn the main functions of this eCommerce web store.
